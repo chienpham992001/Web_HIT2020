@@ -1,0 +1,54 @@
+div{
+
+    font-size: 20px;
+}
+.git_content{
+    color: blue;
+    background-color: #DEB887;
+}
+.git_title{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.git_text{
+    margin-bottom: 10px;
+}
+.mv{
+    text-align: center;
+    padding: 20px 0;
+}
+.mv_content{
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+    background-color: coral;
+    padding: 14px;
+}
+.lyrics{
+    font-size: 20px;
+}
+.ver1{
+    background-color: #DEB887 ;
+    padding:15px;
+}
+.ver2{
+    background-color: coral ;
+    padding:15px;
+}
+.poem_content{
+    font-weight: bold;
+    font-size: 30px;
+    color: yellow;
+    background-color: turquoise;
+    margin-bottom: 10px;
+}
+.poem_text{
+    margin-bottom: 20px;
+    background-color: pink;
+}
+.footer{
+    background-color: #DEB887;
+    text-align: center;
+    font-size: 40px;
+}
