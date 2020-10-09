@@ -46,9 +46,10 @@
 .information{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .ex_lover{
-    width: 800px;
+    flex-basis: 50%;
 }
 .ex_lover_title{
     background-color: #7198A9;
@@ -56,14 +57,16 @@
     padding: 20px;
     font-size: 25px;
     margin-right: 70px;
+    width: 85%;
 }
 .list{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .ex{
     margin-top: 15px;
-    flex-basis: 32.5%;
+    flex-basis: 31.5%;
 }
 .ex_image{
     width: 200px;
@@ -76,7 +79,7 @@
     width: 170px;
 }
 .blog{
-    width: 350px;
+    flex-basis: 25%;
 }
 .blog_title{
     background-color: #7198A9;
