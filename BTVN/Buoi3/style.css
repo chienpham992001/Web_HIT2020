@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.header{
+    padding: 30px 50px 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    color: #4D3974;
+}
+.menu{
+    width: 100%;
+    background-color: #B26495;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.menu_item{
+    position: relative;
+    padding: 18px 33px;
+}
+.menu_item:hover{
+    background-color: #AC7A95;
+}
+.menu_container1{
+    position: absolute;
+    display: none;
+    width: 100%;
+    top: 100%;
+    left: 0;
+}
+.menu_item2{
+    padding: 18px 33px;
+    background-color: #B26495;
+    color: white;
+    position: relative;
+}
+.menu_item:hover .menu_container1{
+    display: block;
+}
+.menu_item2:hover{
+    background-color: #AC7A95;
+}
+.menu_container2{
+    padding-bottom: 50px;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 100%;
+    background-color: #B26495;
+}
+.menu_item2:hover .menu_container2{
+    display: block;
+}
+.menu_item3{
+    padding: 18px 33px;
+    color: white;
+}
+.menu_item3:hover{
+    background-color: #AC7A95;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    z-index: 10;
+}
+h1{
+    font-size: 50px;
+    color: #492C6F;
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #492C6F;
+}
+.more{
+    font-size: 22px;
+    border: 2px solid rgb(183, 109, 206);
+    padding: 14px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+.more:hover{
+    background-color: white;
+    color: black;
+}
+.cat{
+    position: absolute;
+    top :100px;
+    width: 400px;
+    z-index: -1;
+}
+.left_img{
+    width: 50%;
+    position: relative;
+}
+.product{
+    width: 1000px;
+    margin:0 auto;
+}
+.khanh{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.nam{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.des{
+    padding: 0 30px;
+}
+.des p{
+    font-size: 20px;
+}
+.product img{
+    width: 50%;
+}
+.discount{
+    background-color: orange;
+    padding: 10px;
+    position: absolute;
+    left: 450px;
+    top: 20px;
+}
+.footer{
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+    background-color: #E3D2F7;
+}
