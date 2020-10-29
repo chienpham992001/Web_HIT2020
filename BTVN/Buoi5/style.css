@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-size: 18px;
+    color: #8E8E8E;
+}
+.bg_img{
+    background-image: url(https://www.w3schools.com/w3images/profile_girl.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    min-height: 100%;
+    width: 40%;
+}
+.container{
+    margin-left: 40%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    padding: 100px 0;
+    text-align: center;
+}
+.header h1{
+    font-size: 60px;
+}
+.header p{
+    color: black;
+}
+.header img{
+    height: 0;
+}
+button{
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color:#F1F1F1 ;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#aaaaaa ;
+}
+.content{
+    color: #8E8E8E;
+    margin:40px 0;
+}
+.portfolio_box{
+    display: flex;
+    margin-bottom: 30px;
+}
+.portfolio_img{
+    padding: 5px;
+}
+.portfolio img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.title{
+    letter-spacing: 4px;
+    margin:20px 0;
+}
+.gray_bg{
+    background-color: #F1F1F1;
+}
+.ps{
+    color: white;
+    background-color: #616161;
+    text-align: center;
+    line-height:30px ;
+}
+.skill1 .ps{
+    width: 95%;
+}
+.skill2 .ps{
+    width: 85%;
+}
+.skill3 .ps{
+    width: 80%;
+}
+.inf{
+    display: flex;
+    justify-content: space-around;
+    background-color: #616161;
+    padding: 35px;
+    margin: 40px 0;
+    font-size: 20px;
+    color: white;
+}
+.per{
+    display: flex;
+    margin-bottom: 20px;
+}
+.per img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.name span{
+    color: #616161;
+}
+.des{
+    margin: 10px;
+}
+.boxs{
+    display: flex;
+    box-sizing: border-box;
+}
+.box:hover{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+}
+.box{
+    width: 49%;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.box_title1{
+    padding: 30px;
+    background-color:#616161 ;
+    color: white;
+}
+.box_title2{
+    padding: 30px;
+    background-color:black ;
+    color: white;
+}
+.component p{
+    padding: 20px;
+    font-size: 16px;
+    border-bottom:1px solid rgb(223, 217, 217);
+}
+.component h2{
+    margin-top: 20px;
+    color: #616161;
+    font-size: 36px;
+}
+.box_footer{
+    padding: 40px;
+    background-color: #F1F1F1;
+}
+.sign_up{
+    padding:15px 20px;
+    background-color: white;
+}
+.sign_up:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.info p{
+    font-size: 28px;
+    margin: 20px 0;
+}
+.contact img{
+    width: 100%;
+    margin: 20px 0;
+}
+.inp input{
+    width: 95%;
+    padding: 20px;
+    margin: 10px 0;
+}
+.input_box{
+    margin-bottom: 20px;
+}
+.mes:hover{
+    background-color:#afafaf ;
+}
+.footer{
+    margin-top: 50px;
+    padding: 100px;
+    text-align: center;
+    background-color: #F1F1F1;
+    font-size: 30px;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+.icon:hover{
+    color: rgb(250, 94, 120);
+    cursor: pointer;
+}
+@media (max-width:900px){
+    .bg_img{
+        background: none;
+        visibility: hidden;
+    }
+    .container{
+        margin: 0px;
+    }
+    .header img{
+        width: 100%;
+        height: 600px;
+        object-fit: scale-down;
+    }
+    .header{
+        margin-left: 0px;
+    }
+}
+
+@media  (max-width:600px){
+    .container{
+        margin-left: 0px;
+    }
+    .portfolio_box{
+        flex-direction: column;
+    }
+    .inf{
+        flex-direction: column;
+        font-size: 14px;
+        text-align: center;
+    }
+    .inf1{
+        margin: 20px 0;
+    }
+    .boxs{
+        flex-direction: column;
+    }
+    .box{
+        width: 100%;
+    }
+}
