@@ -1,0 +1,146 @@
+.container{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.menu img{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 50px;
+    height: 60px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 20px;
+}
+li:hover{
+    color: rgb(145, 145, 250);
+    cursor: pointer;
+}
+.sign{
+    display: flex;
+    padding: 30px;
+}
+.sign1{
+    color: rgb(66, 66, 202);
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.sign1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.sign2{
+    color: #DC3545;
+    border: 1px solid #DC3545;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sign2:hover{
+    background-color:  #DC3545;
+    color: white;
+    cursor: pointer;
+}
+.info{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.info h1{
+    font-size: 50px;
+    object-fit: scale-down;
+}
+.info img{
+    width: 50%;
+    margin-left: 20px;
+}
+button{
+    font-size: 20px;
+    padding: 15px 50px;
+    border: none;
+}
+.info_button1{
+    background-color: #F95A5F;
+    color: white;
+}
+.info_button1:hover{
+    cursor: pointer;
+}
+.info_button2{
+    color: black;
+    background-color: white;
+}
+.info_button2:hover{
+    cursor: pointer;
+}
+.dolor{
+    margin: 0 auto;
+    width: 35%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dolor_item{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #A7ACB1;
+    border-radius: 10px;
+}
+.dolor_item:hover{
+    background-color:#A7ACB1 ;
+    cursor: pointer;
+}
+.openwork{
+    padding: 50px;
+    width: 100%;
+    background-color: #FFF6E6;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    margin-left: 10%;
+}
+.right img{
+    width: 70%;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+}
+.box{
+    flex-basis: 18%;
+    padding:40px  10px ;
+    border: 1px solid rgb(213, 214, 214);
+    border-radius: 10px;
+}
+.box p{
+    color: rgb(141, 139, 139);
+    font-size: 20px;
+}
+.footer{
+    background-color: #22284C;
+    display: flex;
+    color: white;
+    padding: 50px;
+    justify-content: space-around;
+}
+.footer_item img{
+    margin-right: 30px;
+}
+
+
